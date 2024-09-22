@@ -6,9 +6,9 @@ using namespace std;
 int solution(vector<int> array, int n) {
     int answer = 0;
     
-    for (int i = 0; i < array.size() ; i++) {
-        if (array.at(i) == n) {
-            answer += 1;
+    for (auto i : array) {
+        if (i == n) {
+            answer ++;
         }
     }
     return answer;
