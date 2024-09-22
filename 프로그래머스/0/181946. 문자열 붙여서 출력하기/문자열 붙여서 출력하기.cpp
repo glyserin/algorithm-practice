@@ -8,4 +8,6 @@ int main(void) {
     cin >> str1 >> str2;
     
     cout << str1 << str2;
+    
+    return 0;
 }
